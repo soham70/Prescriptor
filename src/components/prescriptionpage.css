@@ -1,0 +1,87 @@
+.page-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .page {
+    width: 800px;
+    padding: 20px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .address {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .personal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .name,
+  .regno,
+  .degree,
+  .time,
+  .contact {
+    font-size: 14px;
+  }
+  
+  .line {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  
+  .patient {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .pname,
+  .date {
+    font-size: 14px;
+  }
+  
+  .prescription-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
+    word-break: break-all;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  td {
+    white-space: pre-wrap;
+  }
+  
+  @media (max-width: 600px) {
+    .page {
+      width: 100%;
+      border: none;
+    }
+  }
+  
